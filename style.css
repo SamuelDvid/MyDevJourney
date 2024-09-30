@@ -18,6 +18,12 @@
     margin-right: 15px;
 
 }
+
+.navegador:hover{
+    text-decoration: underline;
+}
+
+
 .imagenes-header{
     margin-right: 15px;
 
@@ -47,6 +53,7 @@ body{
 .busqueda{
     height: 49px;
     margin-top: 20px;
+    padding: 40px;
 }
 
 .boton-busqueda{ 
@@ -69,8 +76,12 @@ body{
     border-color: white;
     font-family: sans-serif;
     font-size: medium;
+    line-height: 10px;
 
 }
+
+
+
 .boton-voz{
     border-inline-width: 0px;
     border-color: white;

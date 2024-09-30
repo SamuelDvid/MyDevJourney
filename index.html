@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preload" href="/style.css">
-    <link rel="stylesheet" href="/style.css">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans" type="text/css" />
+    <link rel="preload" href="/style.css" type = "text/css">
+    <link rel="stylesheet" href="/style.css" type = "text/css">
 </head>
 <body>
     <header class="encabezado">
@@ -16,8 +17,8 @@
         </nav>
 
         <div class="imagenes-header">
-            <img src="/imagenes/icono-de-aplicaciones.png" alt="icono-de-aplicaciones">
-            <img src="/imagenes/uroboros.png" class = "imagen-perfil" alt="imagen">
+            <img class = "imagenes-header" src="/imagenes/icono-de-aplicaciones.png" alt="icono-de-aplicaciones">
+            <img class = "imagenes-header" src="/imagenes/uroboros.png" alt="imagen">
         </div>
 
       
@@ -34,9 +35,11 @@
 
 
     <div class="busqueda">
-   
-        <input class="boton-busqueda" type="button" value="🔎" >
-        <input class="input-busqueda" id="input"  type="search" size="42">
+        <a class = "boton-busqueda" href="#">
+            <input class="boton-busqueda" type="button" value="🔎" >
+        </a>
+        
+        <input class="input-busqueda" id="input"  type="search" size="80">
         <input class="boton-voz" type="button" value="🎤" >
         <input class="boton-buscar-imagen" type="button" value="🖼" >
     
